@@ -1,6 +1,6 @@
 {
   "name": "local-or-home-npmrc",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "Get the local npmrc with fallback to the global one that's in your home directory",
   "license": "MIT",
   "repository": "svnlto/local-or-home-npmrc",
@@ -13,7 +13,8 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "xo --space && ava"
+    "test": "xo --space && ava",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "files": [
     "index.js"
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "xo": "^0.18.2"
+    "xo": "^0.18.2",
+    "semantic-release": "^6.3.6"
   }
 }
