@@ -1,4 +1,4 @@
-# local-or-home-npmrc
+# local-or-home-npmrc [![Build Status](https://travis-ci.org/svnlto/local-or-home-npmrc.svg?branch=master)](https://travis-ci.org/svnlto/local-or-home-npmrc)
 
 > Get the local npmrc with fallback to the global one that's in your home directory
 
