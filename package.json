@@ -33,7 +33,7 @@
     "user-home": "^2.0.0"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
+    "ava": "^0.20.0",
     "xo": "^0.18.2",
     "semantic-release": "^6.3.6"
   }
