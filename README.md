@@ -19,14 +19,14 @@ $ npm install --save local-or-home-npmrc
 ```js
 const npmrcLocation = require('local-or-home-npmrc');
 
-console.log(npmrcLocation);
+console.log(npmrcLocation());
 //=> '/Users/svenlito/code/project/.npmrc'
 
 // And if there is no local .npmrc file:
 
 const npmrcLocation = require('local-or-home-npmrc');
 
-console.log(npmrcLocation);
+console.log(npmrcLocation());
 //=> '/Users/svenlito/.npmrc'
 
 ```
