@@ -13,4 +13,4 @@ function findrc() {
   }
 }
 
-module.exports = findrc();
+module.exports = findrc;

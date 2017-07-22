@@ -3,5 +3,5 @@ import test from 'ava';
 import m from './';
 
 test(t => {
-  t.true(path.isAbsolute(m));
+  t.true(path.isAbsolute(m()));
 });
